@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGltZXxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #14292c;
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    top: 0%;
+}
+.links{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    margin: 2px 5px;
+    border-radius: 15px;
+    transition: 300ms;
+}
+.links :hover{
+    color: #176282;
+}
+h1{
+    text-align: center;
+    padding-top: 8%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+}
+.button {
+    padding: 15px 30px;
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    margin-left: 60%;
+    margin-top: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 15%;
+    transition:all 300ms;
+  }
+  .button:hover{
+    color: #176282;
+  }
