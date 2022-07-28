@@ -1,5 +1,6 @@
-body{
+html,body{
     margin: 0%;
+    scroll-behavior: smooth;
 }
 header{
     width: 100%;
@@ -13,7 +14,7 @@ header{
     height: 50px;
     background-color: #14292c;
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     position: fixed;
     top: 0%;
 }
@@ -39,12 +40,12 @@ h1{
     font-size: 70px;
 }
 .button {
-    padding: 15px 30px;
+    padding: 15px 20px;
     background-color: #ffffff; /* Green */
     border: none;
     color: rgb(0, 0, 0);
     margin-left: 60%;
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: center;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
@@ -57,3 +58,117 @@ h1{
   .button:hover{
     color: #176282;
   }
+  .section{
+   height: 100vh;
+   width: 100%;
+   padding-top: 5px;
+  }
+  #description{
+    background-color: #176282;
+  }
+
+  .div{
+    display: inline-flex;
+    flex-direction: row;
+  }
+  h2{
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    transition: 300ms;
+  }
+  .main-img{
+    width: 500px;
+    border-radius: 40%;
+    margin-left: 20px;
+   border:  rgb(0, 0, 0) 2px solid;
+  }
+p{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 80px;
+}
+
+.div-container{
+    width: 100%;
+    height: 600px;
+    display:inline-grid;
+    grid-template-columns: 10% 25% 5% 25% 5% 25% 5%;
+    grid-template-rows: 50% ;
+   
+}
+.first-div{
+    background-color: #176282;
+    border-radius: 15px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   text-align: center;
+ 
+}
+.second-div{
+    background-color: #176282;
+    border-radius: 15px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+.third-div{
+    background-color: #176282;
+    border-radius: 15px;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+.first-div:hover,.second-div:hover,.third-div:hover{
+    box-shadow: 3px 18px 154px -16px rgba(110,110,110,0.9);
+    -webkit-box-shadow: 3px 18px 154px -16px rgba(110,110,110,0.9);
+    -moz-box-shadow: 3px 18px 154px -16px rgba(110,110,110,0.9);
+}
+h3{
+    text-align: center;
+   font-size: 30px;
+   color: white;
+}
+#contact{
+    background-color:#176282;
+   text-align: center;
+   padding-top: 15%;
+}
+form{
+    display: inline-flex;
+    flex-direction: column;
+}
+#email{
+    width: 300px;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+#msg{
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2%;
+}
+.profile{
+    color: #000000;
+}
+.profile:hover,.fa-brands:hover{
+    color: #176282;
+    transition: 100ms;
+}
